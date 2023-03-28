@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href="style.css">
+        <script src="https://kit.fontawesome.com/d58168afac.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/img/logo_william.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+        <title>Magnum</title>
+    </head>
+    <body>
+        <header>
+            <a href="/" class="logo"><img src="/img/logo_william.png" alt=""></a>
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar"><i class="fa-solid fa-bars"></i></label>
+          
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/">início</a></li>
+                    <li ><a href="#" class="cor">cursos <i class="fa-solid fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-pencil"></i> administrativos <i class="fa-solid fa-caret-down"></i></a>
+                                <ul>
+                                  <a href="/administracao.html"><li><i class="fa-solid fa-book"></i> administração</li></a>
+                                  <a href="/auxiliar_juridico.html"><li><i class="fa-solid fa-gavel"></i> aux jurídico</li></a>
+                                  <a href="/empreendedorismo.html"><li><i class="fa-solid fa-wallet"></i> empreendedorismo</li></a>
+                                  <a href="/logistica.html"><li><i class="fa-solid fa-truck"></i> logística</li></a>
+                                  <a href="/marketing.html"><li><i class="fa-solid fa-percent"></i> marketing</li></a>
+                                  <a href="/rh.html"><li><i class="fa-solid fa-person"></i> recursos humanos</li></a>     
+                                  <a href="/secretariado.html"><li><i class="fa-solid fa-table"></i> secretariado</li></a>
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-computer"></i> computação <i class="fa-solid fa-caret-down"></i></a>
+                                <ul>
+                                  <a href="/autocad.html"><li><i class="fa-solid fa-shapes"></i> autocad</li></a>                 
+                                  <a href="/informatica.html"><li><i class="fa-solid fa-laptop"></i> Informática</li></a>
+                                  <a href="/inf_kids.html"><li><i class="fa-solid fa-child"></i> Informática Kids</li></a>
+                                  <a href="/ia.html"><li><i class="fa-solid fa-robot"></i> introduçao à IA</li></a>
+                                  <a href="/programacao.html"><li><i class="fa-brands fa-python"></i> programação</li></a>
+                                  <a href="/pacote_office.html"><li><i class="fa-solid fa-file-word"></i> pacote office</li></a> 
+                                </ul>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-camera"></i> áudio visual <i class="fa-solid fa-caret-down"></i></a>
+                              <ul>
+                                <a href="/photoshop.html"><li><i class="fa-solid fa-image"></i> photoshop</li></a>
+                                <a href="/pacote_adobe.html"><li><i class="fa-solid fa-photo-film"></i> pacote adobe</li></a>
+                              </ul>
+                            </li>
+                            <li><a href="/prenem.html"><i class="fa-solid fa-sheet-plastic"></i> pré enem</li></a>
+                            <li><a href="/cuidador_de_idosos.html"><i class="fa-solid fa-person-cane"></i> cuidador de idosos</li></a>
+                            <li><a href="/preparatorio.html"><i class="fa-solid fa-pen"></i> concursos</li></a>
+                        </ul>
+                    </li>
+          
+                    <li><a href="/contato.html">contato</li></a>
+                    <li><a href="/about.html">quem somos</li></a>
+                </ul>
+            </nav>
+            <a href="/" class="logo2"><img src="/img/logo_william.png" alt=""></a>
+          </header>
+          
+          <main class="background">
+<section class="box-form">
+<div class="form">
+        <form action="https://formsubmit.co/solgamsao@gmail.com" method="POST">
+            <div class="form-header">
+                <div class="title">
+                    <h1>Ficha de Matrícula</h1>
+                </div>
+            </div>
+            <div class="input-group">
+                <div class="input-box">
+                    <label for="name">Nome Completo *</label>
+                    <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="telefone">Data de Nascimento *</label>
+                    <input type="date" name="nascimento" id="nascimento" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="telefone">Telefone com DDD *</label>
+                    <input type="tel" name="telefone" id="telefone" maxlength="11" placeholder="(xx)xxxxx-xxxx" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="name">Cidade *</label>
+                    <input type="text" name="endereco" id="name" placeholder="Cidade" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email *</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <input type="hidden" name="_captcha" value="false">
+                </div>
+
+                
+                
+            </div>
+        
+            <div class="cursos-title">
+                    <h4>Escolha a opção de interesse: *</h4>
+                </div>
+                <div class="cursos-group">
+                    <select name="categoria" required>
+                    <option>escolha seu curso--</option>
+                    <option value="Administração">Administração</option>
+                    <option value="Adobe">Adobe</option>
+                    <option value="Autocad">Autocad</option>
+                    <option value="Auxiliar Jurídico">Auxiliar Jurídico</option>   
+                    <option value="Cuidador de Idosos">Cuidador de Idosos</option>
+                    <option value="Empreendedorismo">Empreendedorismo</option>
+                    <option value="Inteligência Artificial">Inteligência Artificial</option>
+                    <option value="Informática">Informática</option>
+                    <option value="Informática Kids">Informática Kids</option>
+                    <option value="Logística">Logística</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Office">Office</option>
+                    <option value="Photoshop">Photoshop</option>
+                    <option value="Pré-Enem">Pré-Enem</option>
+                    <option value="Preparatório para Concursos">Preparatório para Concursos</option>
+                    <option value="Programação">Programação</option>
+                    <option value="Recursos Humanos">Recursos Humanos</option>
+                    <option value="Secretariado">Secretariado</option>  
+                </div>    
+                <input type="hidden" name="_next" value="http://localhost:5500/matricula">
+           
+             <div class="submit-button">
+                <button><input type="submit" value="Enviar"></button>
+             </div> 
+            </select> 
+        </form>
+
+</div>
+
+
+</section>
+    
+<a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5531995794165" target="_blank">
+    <div class="zap">
+    <i class="fab fa-whatsapp"></i>
+</div>
+</a>
+
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col">
+        <h4>Instituto Magnum</h4>
+        <ul>
+          <li><a href="/about.html">Sobre Nós</a></li>
+          <li><a href="/contato.html">Fale Conosco</a></li>
+          <li><a href="/matricula.html">Matricule-se</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Redes Sociais:</h4>
+        <div class="social-links">
+          <a href="https://www.facebook.com/InstitutoMagnumdeEnsino" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://web.whatsapp.com/send?phone=5531995794165" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/instituto_magnum/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</main>
+</div>
+</body>
+</html>
