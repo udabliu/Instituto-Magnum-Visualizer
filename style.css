@@ -639,6 +639,15 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
+
+  .wrapper{
+    height: 250px;
+  }
+
+  .wrapper img{
+    height: 180px;
+  }
+
   .slide-description {
       padding: 10px;
   }
