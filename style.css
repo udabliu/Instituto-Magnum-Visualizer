@@ -35,6 +35,14 @@ header{
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 768px) {
+  .header{
+    position: fixed;
+    z-index: 1000;
+  }
+}
+
+
 header .logo img{
   top: 0;
   position: absolute;
@@ -757,12 +765,15 @@ html, body {
 }
 
 
-.depoimentos{
-  margin-top: 10px;
+.depoimentos p{
+  margin-top: 20px;
 }
 
 
-.about-title{
+ 
+
+.about-title,
+.titulo-depoimento{
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -782,15 +793,13 @@ html, body {
 .about-text{
   padding-left: 5%;
   line-height: 30px;
-  font-size: 20px;
-  
+  font-size: 17px;
 }
 
 @media screen and (max-width: 900px) {
   .about-text{
-    font-size: 17px;
-  }
-  .depoimentos p{
+    text-align: justify;
+    margin: 23px;
     font-size: 17px;
   }
   .about-container{
@@ -887,12 +896,6 @@ html, body {
 
 
 @media screen and (max-width: 720px) {
-  .cards {
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-  }
 
   .card{
     width: 300px;
@@ -1022,9 +1025,8 @@ html, body {
 
 .cardi{
   width: 500px;
-  height: 500px;
   text-align: center;
-  margin: 20px 30px;
+  margin: 25px;
   padding: 30px 80px 120px;
   border-radius: 12px;
   border-width: 1px;
@@ -1067,21 +1069,11 @@ html, body {
 }
 
 
-@media screen and (max-width: 900px){
-  .cardsi{
-    margin: 0;
-    flex-direction: column;
-  }
-
+@media screen and (max-width: 768px) {
   .cardi{
-    padding: 70px;
-    align-items: center;
-  }
-  .cardi h2{
-    font-size: 25px;
+    width: auto;
   }
 }
-
 
 
 
