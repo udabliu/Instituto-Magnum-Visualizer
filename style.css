@@ -875,8 +875,6 @@ html, body {
   box-shadow: 20px 20px 13px 0px rgba(0, 0, 0, 0.22);
   border-radius: 20px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
   background-color: #fff;
 }
 
@@ -934,8 +932,10 @@ html, body {
   display: flex;
   margin: 3%;
   background-color: #f0f0f0;
- 
+  
 }
+
+
 
 .cards h2{
   color: black;
@@ -1085,4 +1085,11 @@ html, body {
   width: 90%;
 }
 
+/*---------------------------*/ 
 
+
+.ilustrative-img img{
+  width: 400px;
+  border-radius: 10px;
+
+}
